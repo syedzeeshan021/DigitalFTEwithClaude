@@ -1,0 +1,42 @@
+[
+  {
+    "name": "daily_briefing",
+    "command": "orchestrator.py --generate-briefing",
+    "schedule": "00 08 * * *",
+    "description": "Generate daily CEO briefing every morning",
+    "created": "2026-03-03T01:32:29.608921",
+    "enabled": true,
+    "last_run": null,
+    "next_run": null
+  },
+  {
+    "name": "hourly_check",
+    "command": "orchestrator.py --check-status",
+    "schedule": "0 * * * *",
+    "description": "Run hourly system health check",
+    "created": "2026-03-03T01:32:29.609826",
+    "enabled": true,
+    "last_run": null,
+    "next_run": null
+  },
+  {
+    "name": "daily_briefing",
+    "command": "orchestrator.py --generate-briefing",
+    "schedule": "00 08 * * *",
+    "description": "Generate daily CEO briefing every morning",
+    "created": "2026-03-03T01:38:39.278851",
+    "enabled": true,
+    "last_run": null,
+    "next_run": null
+  },
+  {
+    "name": "hourly_check",
+    "command": "orchestrator.py --check-status",
+    "schedule": "0 * * * *",
+    "description": "Run hourly system health check",
+    "created": "2026-03-03T01:38:39.279702",
+    "enabled": true,
+    "last_run": null,
+    "next_run": null
+  }
+]

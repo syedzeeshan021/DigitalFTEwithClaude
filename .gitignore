@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Credentials and Secrets
+credentials.json
+token.pickle
+.env
+*.pem
+*.key
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI Employee Vault (optional - uncomment if you don't want to sync vault)
+# AI_Employee_Vault/
+
+# Session files (Playwright browser sessions)
+AI_Employee_Vault/.whatsapp_session/
+AI_Employee_Vault/.linkedin_session/
+AI_Employee_Vault/token.pickle
+
+# PM2
+.pm2/
+
+# Don't track vault subfolders (but keep main markdown files)
+AI_Employee_Vault/Needs_Action/
+AI_Employee_Vault/Approved/
+AI_Employee_Vault/Done/
+AI_Employee_Vault/Plans/
+AI_Employee_Vault/Pending_Approval/
+AI_Employee_Vault/Logs/

@@ -1,0 +1,20 @@
+# Bronze Tier Dependencies
+watchdog>=4.0.0
+
+# Silver Tier Dependencies
+# Gmail API integration
+google-api-python-client>=2.0.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=1.0.0
+
+# WhatsApp Web automation (Playwright)
+playwright>=1.40.0
+
+# LinkedIn API integration (optional, for production use)
+# linkedin-api>=2.0.0
+
+# Scheduling and task management
+# croniter>=1.0.0  # For cron expression parsing
+
+# Additional utilities
+python-dotenv>=1.0.0  # For environment variable management
